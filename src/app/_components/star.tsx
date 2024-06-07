@@ -9,7 +9,7 @@ interface StarProps {
 const Star: React.FC<StarProps> = ({ selected = false, onSelect }) => {
   return (
     <span
-      className={`cursor-pointer ${selected ? 'text-yellow-500' : 'text-gray-400'}`}
+      className={`h-[200px] cursor-pointer ${selected ? 'text-yellow-500' : 'text-gray-400'}`}
       onClick={onSelect}
     >
       &#9733;
